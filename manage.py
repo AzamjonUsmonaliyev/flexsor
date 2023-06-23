@@ -1,8 +1,10 @@
 #!/usr/bin/env python
+
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
 #it's a comment
+#It will help you to claim achievement
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'flexsor.settings')
@@ -15,7 +17,6 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
-
-
+#nuriddin
 if __name__ == '__main__':
     main()
