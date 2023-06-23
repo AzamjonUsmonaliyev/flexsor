@@ -4,6 +4,7 @@
 import os
 import sys
 #it's a comment
+#It will help you to claim achievement
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'flexsor.settings')
