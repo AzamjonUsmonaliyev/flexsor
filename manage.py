@@ -3,7 +3,7 @@
 import os
 import sys
 #changed
-
+#change2
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'flexsor.settings')
